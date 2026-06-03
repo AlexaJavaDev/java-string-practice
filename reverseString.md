@@ -11,7 +11,7 @@
         String result = "";
         String str = "Java";
         for (int i = str.length() - 1; i >= 0; i--) {
-            result += str.charAt(i) + "\n";
+            result += str.charAt(i);
         }
         return result;
     }
